@@ -6,7 +6,16 @@ Problem 1-2
 	a) nlogn
 	b) nlogn
 	c) n 
-
+Problem 1-3
+	a) No - only checks the mid point for peak, does not narrow the search properly
+	b) Yes - Basic greedy 
+	c) Yes
+	d) Yes - same as 3
+Problem 1-4
+	a) nlogn
+	b) n^2
+	c) n
+	d) n
 
 
 
@@ -17,3 +26,6 @@ Problem 1-1 c) f4->f1->f3->f2
 		as n goes to infinity n/2 > logn*rootn
 		and of course 2^n is larger than 2^n/2
 Problem 1-2 a) n + n/2 + n/4 + ... + 0 = 2n so O(n)
+Problem 1-3 a) Yes - I missunderstood how it narrows the possibilities. I missed the 
+		part where it checks which sub problem to go to next
+	    c) No -  
