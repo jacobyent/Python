@@ -28,4 +28,8 @@ Problem 1-1 c) f4->f1->f3->f2
 Problem 1-2 a) n + n/2 + n/4 + ... + 0 = 2n so O(n)
 Problem 1-3 a) Yes - I missunderstood how it narrows the possibilities. I missed the 
 		part where it checks which sub problem to go to next
-	    c) No -  
+	    c) No - The neighbors variable doesn't properly switch if there the program
+		has seen a larger value. This causes an error where the neighbors value
+		doesn't switch but then the next conditional only checks if the neighbors
+		value and the current location are the same. This produces an improper
+		answer.  
